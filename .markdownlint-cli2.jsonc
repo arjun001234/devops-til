@@ -1,0 +1,10 @@
+{
+  "config": {
+    "default": true,
+    // Tables and long URLs make strict line length noisy for notes.
+    "MD013": false,
+    // Allow inline HTML comments used as index markers.
+    "MD033": false
+  },
+  "ignores": ["node_modules/**"]
+}
